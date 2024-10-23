@@ -5,59 +5,83 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: 'Assurbanipal';
+        src: url('Assurbanipal.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .sum {
+        font-family: "Noto Sans Cuneiform", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .na {
+        font-family: 'Assurbanipal', serif;
+        font-size: 1.5em;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
       <div class="p-4">
         <h2>Modern cuneiform</h2>
-        <p class="text-secondary">Experiments in cuneiform typography, by Victor Voermans.</p>
+        <p class="text-secondary">Experiments in cuneiform typography, by Victor Voermans. Made with Blender and Inkscape.</p>
         
         <hr>
 
         <h5>Supermarket (2021)</h5>
-        <p>The language is Akkadian. The dialect is Old-Babylonian, the script Neo-Assyrian.</p>
+        <p>Language: Akkadian (Old Babylonian dialect)<br>Script: Neo-Assyrian cuneiform</p>
         <div class="row text-center">
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="supermarkt1.png" alt="Supermarkt 1">
-            <p class="text-secondary">e₂ <i>ša-mi-im<br>bīt šâmim</i><br>House of purchasing</p>
+            <p class="text-secondary"><span class="na">𒂍&thinsp;𒊭&thinsp;𒈪&thinsp;𒅎</span><br>House of purchasing</p>
           </div>
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="supermarkt2.png" alt="Supermarkt 2">
-            <p class="text-secondary">3 <i>a-na</i> ku₃-babbar 2<br>3 <i>ana kasap</i> 2<br>3 for the silver of 2</p>
+            <p class="text-secondary"><span class="na">𒐈&thinsp;𒀀&thinsp;𒈾&thinsp;𒆬&thinsp;𒌓&thinsp;𒈫</span><br>3 for the silver of 2</p>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="supermarkt3.png" alt="Supermarkt 3">
-            <p class="text-secondary"><i>mi-ma šum-šu ni-iš-šu-šu<br>mimma šumšu nīšūšu</i><br>Whatever its name, we have it</p>
+            <p class="text-secondary"><span class="na">𒈪&thinsp;𒈠&thinsp;𒋳&thinsp;𒋗&thinsp;𒉌&thinsp;𒅖&thinsp;𒋗&thinsp;𒋗</span><br>Whatever its name, we have it</p>
           </div>
         </div>
 
         <hr>
 
         <h5>Graffiti (2024)</h5>
-        <p>This is Sumerian, written in the old form of the script.</p>
+        <p>Language: Sumerian<br>Script: Old Sumerian cuneiform</p>
         <div class="row text-center">
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="graffiti1.png" alt="Graffiti 1">
           </div>
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="graffiti2.png" alt="Graffiti 2">
-            <p class="text-secondary">𒆠𒉘<br>ki-aĝ₂<br>Love</p>
+            <p class="text-secondary"><span class="sum">𒆠𒉘</span><br>Love</p>
           </div>
         </div>
 
         <div class="row text-center">
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="graffiti3.png" alt="Graffiti 3">
-            <p class="text-secondary">𒈾𒀭𒊬𒊑𒂗<br>na-an-sar-re-en<br>Do not write!</p>
+            <p class="text-secondary"><span class="sum">𒈾𒀭𒊬𒊑𒂗</span><br>Do not write!</p>
           </div>
           <div class="col-lg-6">
             <img class="img-fluid img-thumbnail my-3" src="graffiti4.png" alt="Graffiti 4">
-            <p class="text-secondary">𒂼𒉡𒌇𒈨<br>ama nu-tuku-me<br>&ldquo;I am one who has no mother&rdquo; (quotation from Gudea Cylinder A 3:6)</p>
+            <p class="text-secondary"><span class="sum">𒂼𒉡𒌇𒈨</span><br>&ldquo;I am one who has no mother&rdquo; (quotation from Gudea Cylinder A 3:6)</p>
           </div>
         </div>
 
